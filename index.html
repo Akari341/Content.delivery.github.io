@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Content Delivery Networks</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        header, nav, footer {
+            background-color: #f0f0f0;
+            padding: 10px 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        .content-wrapper {
+            display: flex;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #e0e0e0;
+            padding: 20px;
+            height: 100vh;
+        }
+        .main-content {
+            flex: 1;
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Understanding Content Delivery Networks</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#what-is-cdn">What is a CDN?</a></li>
+            <li><a href="#how-cdns-work">How CDNs Work</a></li>
+            <li><a href="#benefits-of-cdns">Benefits of CDNs</a></li>
+        </ul>
+    </nav>
+
+    <div class="content-wrapper">
+        <div class="sidebar">
+            <h2>CDN Fun Facts</h2>
+            <ul>
+                <li>The first CDN was created in the late 1990s.</li>
+                <li>As of 2021, CDNs handle about 70% of global internet traffic.</li>
+                <li>Some CDNs can handle over 100 trillion requests per day!</li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <section id="what-is-cdn">
+                <h2>What is a CDN?</h2>
+                <p>A Content Delivery Network (CDN) is a geographically distributed network of servers that work together to provide fast delivery of Internet content.</p>
+                <img src="https://example.com/cdn-diagram.jpg" alt="CDN Diagram">
+            </section>
+
+            <section id="how-cdns-work">
+                <h2>How CDNs Work</h2>
+                <p>CDNs work by caching content on edge servers located closer to end-users, reducing latency and improving load times for web content.</p>
+                <img src="https://example.com/cdn-map.jpg" alt="Global CDN Map">
+            </section>
+
+            <section id="benefits-of-cdns">
+                <h2>Benefits of CDNs</h2>
+                <ul>
+                    <li>Improved website load times</li>
+                    <li>Reduced bandwidth costs</li>
+                    <li>Increased content availability and redundancy</li>
+                    <li>Enhanced website security</li>
+                    <li>Better user experience</li>
+                    <li>Scalability during traffic spikes</li>
+                </ul>
+            </section>
+
+            <section id="cdn-comparison">
+                <h2>CDN Provider Comparison</h2>
+                <table>
+                    <tr>
+                        <th>Provider</th>
+                        <th>Global PoPs</th>
+                        <th>Free Tier</th>
+                        <th>DDoS Protection</th>
+                    </tr>
+                    <tr>
+                        <td>Cloudflare</td>
+                        <td>250+</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Amazon CloudFront</td>
+                        <td>310+</td>
+                        <td>No</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Akamai</td>
+                        <td>4000+</td>
+                        <td>No</td>
+                        <td>Yes</td>
+                    </tr>
+                </table>
+            </section>
+
+            <p>For more information about CDNs, check out this <a href="https://www.cloudflare.com/learning/cdn/what-is-a-cdn/" target="_blank">comprehensive guide by Cloudflare</a>.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>By: Joaquin Baltazar | Date: 08/28/2024</p>
+    </footer>
+</body>
+</html>
